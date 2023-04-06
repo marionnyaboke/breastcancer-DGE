@@ -7,13 +7,13 @@
 # load the module
 module load hisat2
 
-mkdir -p /home/emurungi/gitau/marion/TNBC/TNBCsam
+mkdir -p /home/gitau/marion/TNBC/TNBCsam
 
-cd /home/emurungi/gitau/marion/TNBC/TNBCtrimmed
+cd /home/gitau/marion/TNBC/TNBCtrimmed
 
-FNA_DIR="/home/emurungi/gitau/marion/raw"
+FNA_DIR="/home/gitau/marion/raw"
 
-SAM_DIR="/home/emurungi/gitau/marion/TNBC/TNBCsam"
+SAM_DIR="/home/gitau/marion/TNBC/TNBCsam"
 
 #Align fastqs to indexed reference genome
 SAMPLES="SRR10729843 SRR10729844 SRR10729846 SRR10729847 SRR10729848 SRR10729849 SRR10729850 SRR10729851 SRR10729852 SRR10729853 SRR10729854 SRR10729855 SRR10729856 SRR10729857 SRR10729858"
