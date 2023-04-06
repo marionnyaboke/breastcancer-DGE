@@ -4,9 +4,9 @@
 #SBATCH -J ascp
 #SBATCH -n 8
 
-mkdir -p /home/emurungi/gitau/marion/TNBC/raw
+mkdir -p /home/gitau/marion/TNBC/raw
 
-cd /home/emurungi/gitau/marion/TNBC/raw
+cd /home/gitau/marion/TNBC/raw
 
 SAMPLES="SRR10729847 SRR10729843 SRR10729848 SRR10729844 SRR10729849 SRR10729846 SRR10729850" 
 #SRR10729851 SRR10729855 SRR10729854 SRR10729852
