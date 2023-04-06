@@ -9,11 +9,11 @@
 
 module load featureCounts
 
-cd /home/emurungi/gitau/marion/raw
+cd /home/gitau/marion/raw
 
 # process paired-end data
 
-BAM_DIR="/home/emurungi/gitau/marion/TNBC/TNBCbam/"
+BAM_DIR="/home/gitau/marion/TNBC/TNBCbam/"
 
 bam_file_name=$(basename "$BAM_DIR" .sorted.bam)
 GTF_FILE=GCF_000001405.39_GRCh38.p13_genomic.gtf
