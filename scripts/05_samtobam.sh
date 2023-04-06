@@ -7,13 +7,13 @@
 # load the blast module
 module load samtools
 
-mkdir -p /home/emurungi/gitau/marion/TNBC/TNBCbam
+mkdir -p /home/gitau/marion/TNBC/TNBCbam
 
-cd /home/emurungi/gitau/marion/TNBC/TNBCsam
+cd /home/gitau/marion/TNBC/TNBCsam
 
-SAM_DIR="/home/emurungi/gitau/marion/TNBC/TNBCsam"
+SAM_DIR="/home/gitau/marion/TNBC/TNBCsam"
 
-BAM_DIR="/home/emurungi/gitau/marion/TNBC/TNBCbam/"
+BAM_DIR="/home/gitau/marion/TNBC/TNBCbam/"
 
 
 # convert sam file to sorted bam files
