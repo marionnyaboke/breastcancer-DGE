@@ -76,7 +76,7 @@ library(pathview)
 library(ggplot2)
 
 # SET THE DESIRED ORGANISM HERE
-organism = "org.Dm.eg.db"
+organism = "org.Hs.eg.db"
 #BiocManager::install(organism, character.only = TRUE)
 library(organism, character.only = TRUE)
 
